@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joopal.warfacekrguide"
+    android:versionCode="3"
+    android:versionName="1.061" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.joopal.warfacekrguide.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.WeaponActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.RifleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.PistolActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.KnifeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.GrenadeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.OtherActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.ShieldActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.BodyShieldActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.HelmetActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.GloveActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.ShoeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.ToolActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.ChallengeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.GradeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.PatchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.TipActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.ExplainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.SkinActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.joopal.warfacekrguide.SkinpicActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
